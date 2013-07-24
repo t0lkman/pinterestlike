@@ -34,7 +34,7 @@
 	}
 
 	var position = function() {
-		wrapper.height(rows * boxes.outerHeight() + 70); // set the wrapper height according to the number of boxes
+		wrapper.height(rows * boxes.outerHeight() + 40); // set the wrapper height according to the number of boxes
 		boxes.each(function(i) {
 			var min = Math.min.apply(Math, blockArrs); // get minimum value from the array
 			var index = $.inArray(min, blockArrs);

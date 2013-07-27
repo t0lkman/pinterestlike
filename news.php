@@ -4,7 +4,7 @@ $data_type = $_GET['data_type'];
 $keyword = $_GET['keyword'];
 
 
-$AZURE_ACCOUNT_KEY = '93TuWFIl1+UC+PP6K5pLeOzIJcKMil7QLLtPo4Et7NE='; // for the Bing provider
+$AZURE_ACCOUNT_KEY = 'bing_search_api_key_here'; // for the Bing provider
 
 switch($data_type)
 {
